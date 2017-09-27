@@ -1,0 +1,111 @@
+i{
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}
+a:hover{
+    border-color: #3CD5FF;
+}
+header{
+    padding: 20px;
+}
+header .left{
+    font-size: 40px;
+}
+header .left i{
+    margin-left: 16px; font-size: 32px; color: #bbb;
+}
+.icons{
+    padding: 20px;
+}
+.iconWrap{
+    display: inline-block; width: 75px; height: 75px; padding: 26px; border: 1px solid #999; margin: 0 8px 8px 0;
+}
+.search.icon{
+    width: 14px; height: 14px; border: 1px solid; border-radius: 50%; margin-left: 3px; margin-top: 2px; position: relative;
+}
+.search.icon:after{
+    display: block; content: ""; width: 6px; border-top: 1px solid; position: absolute; bottom: -2px; right:-4px;
+    transform: rotate(45deg);
+}
+.magnify.icon{
+    width: 14px; height: 14px; border: 1px solid; border-radius: 50%; margin-left: 3px; margin-top: 2px; position: relative;
+}
+.magnify.icon i:before{
+    display: block; content: ""; width: 6px; border-top: 1px solid; position: absolute; left: 3px; top: 5px;
+}
+.magnify.icon i:after{
+    display: block; content: ""; height: 6px; border-left: 1px solid; position: absolute; left: 5px; bottom:3px;
+}
+.magnify.icon:after{
+    display: block; content: ""; width: 6px; border-top: 1px solid; position: absolute; bottom: -2px; right:-4px;
+    transform: rotate(45deg);
+}
+.minify.icon{
+    width: 14px; height: 14px; border: 1px solid; border-radius: 50%; margin-left: 3px; margin-top: 2px; position: relative;
+}
+.minify.icon:before,.minify.icon:after{
+    display: block; content: ""; width: 6px; border-top: 1px solid; position: absolute; left: 3px; top: 5px;
+}
+.minify.icon:after{
+    top: auto; left: auto; bottom: -2px; right:-4px; transform: rotate(45deg);
+}
+.close.icon{
+    position: relative;
+}
+.close.icon:before,.close.icon:after{
+    display: block; content: ""; height: 16px; border-left: 1px solid; position: absolute; left: 50%; top: 2px; transform: rotate(45deg);
+}
+.close.icon:after{
+    transform: rotate(-45deg);
+}
+.menu.icon{
+    position: relative;
+}
+.menu.icon i,.menu.icon:before,.menu.icon:after{
+    display: block; content: ""; width: 14px; border-top: 1px solid; position: absolute; left: 50%; top: 9px; margin-left: -7px;
+}
+.menu.icon:before{
+    top: 4px;
+}
+.menu.icon:after{
+    top: 14px;
+}
+.arrowLeft.icon{
+    display: block; width: 14px; border-top: 1px solid; position: relative; margin-top: 10px; margin-left: 6px;
+}
+.arrowLeft.icon:before{
+    display: block; content: ""; width: 8px; height: 8px; border: 1px solid transparent; border-left-color: #333; border-top-color: #333;
+    transform: rotate(-45deg); position: absolute; top: -6px;
+}
+.arrowRight.icon{
+    display: block; width: 14px; border-top: 1px solid; position: relative; margin-top: 10px; margin-left: 6px;
+}
+.arrowRight.icon:after{
+    display: block; content: ""; width: 8px; height: 8px; border: 1px solid transparent; border-right-color: #333; border-top-color: #333;
+    transform: rotate(45deg); position: absolute; top: -6px; right: 0;
+}
+.arrowUp.icon{
+    display: block; height: 14px; border-left: 1px solid; position: relative; margin-top: 5px; margin-left: 10px;
+}
+.arrowUp.icon:after{
+    display: block; content: ""; width: 8px; height: 8px; border: 1px solid transparent; border-right-color: #333; border-top-color: #333;
+    transform: rotate(-45deg); position: absolute; right: 50%;
+}
+.arrowDown.icon{
+    display: block; height: 14px; border-left: 1px solid; position: relative; margin-top: 3px; margin-left: 10px;
+}
+.arrowDown.icon:after{
+    display: block; content: ""; width: 8px; height: 8px; border: 1px solid transparent; border-right-color: #333; border-top-color: #333;
+    transform: rotate(135deg); position: absolute; bottom: 0px; right: 50%;
+}
+.plus.icon{
+    display: block; width: 15px; border-top: 1px solid; margin-top: 9px; margin-left: 3px; position: relative;
+}
+.plus.icon:before{
+    display: block; content: ""; height: 15px; border-left: 1px solid; position: absolute; left: 50%; top: 50%; margin-top: -7px;
+}
+.minus.icon{
+    display: block; width: 15px; border-top: 1px solid; margin-top: 9px; margin-left: 3px;
+}
