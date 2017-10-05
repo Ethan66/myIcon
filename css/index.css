@@ -109,3 +109,80 @@ header .left i{
 .minus.icon{
     display: block; width: 15px; border-top: 1px solid; margin-top: 9px; margin-left: 3px;
 }
+.correct.icon{
+    width: 14px; height: 14px; border-left: 1px solid; transform: rotate(45deg); margin-top: 6px; margin-left: 10px; position: relative;
+}
+.correct.icon:before{
+    display: block; content: ""; height: 7px; border-left: 1px solid; transform: rotate(-90deg); position: absolute; top: 11px; left: -4px;
+
+}
+.location.icon{
+    width: 14px; height: 14px; border: 1px solid; border-radius: 50%; border-bottom-left-radius: 0; transform: rotate(-45deg);
+    margin-left: 4px; margin-top: 1px;
+}
+.location.icon:before{
+    display: block; content: ""; width: 4px; height: 4px; border: 1px solid; border-radius: 50%; margin: auto; margin-top: 3px;
+}
+.direction.icon{
+    width: 19px; height: 13px; border: 1px solid; border-radius: 2px; background: #fff; margin-left: 1px; position: relative;
+}
+.direction.icon:before{
+    display: block; content: ""; width: 5px; height: 5px; border: 1px solid; transform: rotate(-45deg);
+    position: absolute; bottom: -4px; left: 4px; border-right-color: #fff; border-top-color: #fff; background: #fff;
+}
+.people.icon{
+    width: 14px; height: 14px; border: 1px solid; border-radius: 50%; margin-left: 4px; margin-top: -4px; position: relative;
+}
+.people.icon:after{
+    display: block; content: ""; width: 18px; height: 10px; border: 1px solid; border-top-left-radius: 7px; border-bottom: transparent;
+    border-top-right-radius: 7px; position: absolute; bottom: -11px; left: -4px;
+}
+.heart.icon{
+    width: 12px; height: 12px; border: 1px solid; transform: rotate(45deg); border-left: none; border-top: none; position: relative;
+    top: 4px; left: 4px;
+}
+.heart.icon:before,.heart.icon:after{
+    display: block; content: ""; width: 10px; height: 10px; border: 1px solid; border-radius: 50%; position: absolute;
+    left: -5px; top: 1px; transform: rotate(-45deg);
+}
+.heart.icon:before{
+    border-right: none; border-bottom: none;
+}
+.heart.icon:after{
+    left: 1px; top: -5px; border-left: none; border-bottom: none;
+}
+.email.icon{
+    display: block; width: 18px; height: 14px; border: 1px solid; position: relative; top: 2px; left: 1px;
+}
+.email.icon:before{
+    display: block; content: ""; width: 10px; height: 10px; border: 1px solid; border-top: none; border-left: none;
+    transform: rotate(45deg); position: absolute; top: -6px; left: 2px;
+}
+.tip.icon{
+    display: block; width: 13px; height: 20px; border: 1px solid; position: relative;
+}
+.tip.icon:before{
+    display: block; content: ""; width: 8px; height: 8px; border: 1px solid; transform: rotate(45deg);
+    position: absolute; bottom: -5px; left: 1px; border-bottom: none; border-right: none; background: #fff;
+}
+.camero.icon{
+    display: block; width: 20px; height: 14px; border: 1px solid; position: relative; top: 3px;
+}
+.camero.icon:before{
+    display: block; content: ""; width: 5px; height: 4px; background: black; position: absolute; top: -4px; right: 3px;
+}
+.camero.icon:after{
+    display: block; content: ""; width: 6px; height: 6px; border: 1px solid; border-radius: 50%; position: absolute;
+    top: 2px; left: 5px;
+}
+.large.icon{
+    display: block; width: 18px; height: 18px; border: 1px solid; position: relative;
+}
+.large.icon:before,.large.icon:after{
+    display: block; content: ""; width: 20px; height: 6px; background: #fff; position: absolute; left: -2px; top: 5px;
+}
+.large.icon:after{
+    transform: rotate(90deg);
+}
+
+
