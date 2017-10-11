@@ -184,5 +184,56 @@ header .left i{
 .large.icon:after{
     transform: rotate(90deg);
 }
+.card.icon{
+    width: 20px; height: 15px; border: 1px solid; position: relative;
+}
+.card.icon:before{
+    display: block; content: ''; width: 100%; height: 3px; background: #000; position: absolute; top: 2px;
+}
+.card.icon:after{
+    display: block; content: ""; border-top: 1px solid; width: 6px; position: absolute; bottom: 2px; right: 2px;
+}
+.lock.icon{
+    width: 18px; height: 16px; border: 1px solid; border-radius: 2px; position: relative; top: 3px; left: 1px;
+}
+.lock.icon:before{
+    display: block; content: ""; width: 8px; height: 8px; border: 1px solid; border-top-left-radius: 6px; border-top-right-radius: 6px;
+    position: absolute; top: -10px; left: 3px;
+}
+.lock.icon:after{
+    display: block; content: ""; width: 2px; height: 2px; border: 1px solid; border-radius: 50%; position: absolute; left: 6px; top: 5px;
+}
+.tag.icon{
+    width: 13.5px; height: 16px; border: 1px solid; border-top: none; position: relative; left: 5px; transform: rotate(-45deg);
+}
+.tag.icon:before{
+    display: block; content: ""; width: 9px; height: 9px; border: 1px solid; border-right: none; border-bottom: none;
+    transform: rotate(45deg); position: absolute; top: -5px; left: 0.5px;
+}
+.tag.icon:after{
+    display: block; content: ""; width: 1px; height: 1px; border: 1px solid; border-radius: 50%; position: absolute; left: 4px; top: -1px;
+}
+.wifi.icon{
+    width: 16px; height: 16px; border: 1px solid transparent; border-left: 1px solid #333; border-radius: 50%; position: relative;
+    transform: rotate(90deg); top: 4px; left: 1px;
+}
+.wifi.icon:before{
+    display: block; content: ""; width: 24px; height: 24px;
+    border: 1px solid transparent; border-left: 1px solid #333; border-radius: 50%; position: absolute; top: -6px; left: -6px;
+}
+.wifi.icon:after{
+    display: block; content: ""; width: 6px; height: 6px;
+    border: 1px solid transparent; border-left: 1px solid #333; border-radius: 50%; position: absolute; top: 3px; left: 4px;
+}
+.export.icon{
+    width: 16px; height: 14px; border: 1px solid; position: relative; left: 4px; top: 3px;
+}
+.export.icon:before{
+    display: block; content: ""; width: 8px; height: 8px; border: 1px solid; border-right: none; border-bottom: none; transform: rotate(45deg);
+    background: #fff; position: absolute; left: 3px; top: -8px;
+}
+.export.icon:after{
+    display: block; content: ""; border-left: 1px solid; height: 8px; position: absolute; left: 7px; top: -3px;
+}
 
 
